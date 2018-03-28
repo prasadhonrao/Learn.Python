@@ -1,3 +1,5 @@
+# list - mutable sequence of objects
+
 # declaration
 languages = ["Python", "Scala", "Haskell", "F#"]
 print(languages)

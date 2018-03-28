@@ -5,3 +5,9 @@ for lang in languages:
         print("Found Haskell !!!", end='\n')
         break
     print(lang, end=' ')
+
+# Another example to break continuous loop using a condition
+while True:
+    response = input()
+    if (int(response) % 7 == 0):
+        break

@@ -3,12 +3,24 @@ text = 'Python is a dynamic language'
 print(text)
 print(type(text))
 
-# declaration using single quote
+# declaration using double quote
 text = "Python is a dynamic language"
 print(text)
 
+# declaration using tripe quote. Normally used for module documentation
+text = """ This 
+           is
+           a
+           multiline
+           string """
+print(text)
+
 # escape sequence
-text = 'This is a text with escape sequence right here : \' :-)'
+text = "It's a good thing !"
+print(text)
+
+# escape sequence
+text = "Double quote \" in input string "
 print(text)
 
 # declaration using r (raw string which does not automatically escape \ etc)

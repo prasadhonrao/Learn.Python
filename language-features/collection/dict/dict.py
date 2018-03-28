@@ -1,26 +1,29 @@
 # dictionary key can have different data types, including nested dictionary
-customers = { 
-                1: 'Prasad', 
-                2: 'Amit', 
-                3: 'Scott',
-                "four": 4 
+
+languages = { 
+                1: 'Python', 
+                2: 'Scala', 
+                3: 'Haskell',
+                "four": 'F#' 
             }
-print(type(customers))
-print(customers)
-print(customers[1])
-print("Dictionary length is {0}".format(len(customers)))
-print(customers.keys()) #get all keys
-print(customers.values()) # get all values
+print(type(languages))
+print(languages)
+print(languages[1])
+print("Dictionary length is {0}".format(len(languages)))
+print(languages.keys()) #get all keys
+print(languages.values()) # get all values
 
 # use get method to get a value using key, and pass default value if key doesn't exists in the dictionary
-first = customers.get('11', 'unknown value')
+first = languages.get('11', 'unknown value')
 print(first)
 
 # add new key to dictionary
-customers['11'] = "Eleven"
-first = customers.get('11', 'unknown value')
+languages['5'] = "Clojure"
+first = languages.get('11', 'unknown value')
 print(first)
 
+# --------------------------------------------------------------------------------------------
+# combining dictiory and list
 
 dictionaryList = [
     {"firstName": "Prasad", "lastName": "Honrao"},
