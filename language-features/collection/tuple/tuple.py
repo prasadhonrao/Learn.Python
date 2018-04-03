@@ -1,6 +1,15 @@
 # tuples are declared using () and elements are separated using comma
 # tuples are immutable
 
+# declare empty tuple
+empty = ()
+print(type(empty))
+
+# declare tuple using constructor
+c = tuple('Prasad')
+print (c)
+
+# declare tuple using values
 t = ("Prasad", "Honrao", 37, "Pune")
 print (t)
 
@@ -14,13 +23,4 @@ print('Tuple lenght is ', len(t))
 for item in t:
     print(item, end=' ')
 print('')
-
-# declare empty tuple
-e = ()
-print(type(e))
-
-# declare tuple using constructor
-c = tuple('Prasad')
-print (c)
-
 

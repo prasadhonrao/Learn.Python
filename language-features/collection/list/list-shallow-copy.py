@@ -16,6 +16,3 @@ print ("b = ", b)
 a[1].append(5)
 print ("a = ", a)
 print ("b = ", b)
-
-
-

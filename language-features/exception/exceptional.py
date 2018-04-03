@@ -12,5 +12,5 @@ def convert(s):
     finally:
         print("done!")
 
-convert("10")
-convert("10A")
+print(convert("10"))
+print(convert("10A"))
