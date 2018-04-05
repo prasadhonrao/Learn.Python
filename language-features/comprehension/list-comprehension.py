@@ -10,10 +10,10 @@ lengths = []
 for word in words:
     lengths.append(len(word))
 
+print(lengths)
+
 # With comprehension
 print([len(word) for word in words])
-
-print(lengths)
 
 # Capitalize each word
 print([str(word).capitalize() for word in words])
