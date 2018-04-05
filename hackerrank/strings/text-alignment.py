@@ -1,4 +1,3 @@
-
 thickness = 5
 c = 'H'
 
