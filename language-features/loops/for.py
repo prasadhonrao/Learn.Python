@@ -20,3 +20,7 @@ print('')
 for i in range(10, 20, 2): #start, end, step
     print(i, end=' ')
 print('')
+
+# iterating using a _ placeholder
+for _ in range(5):
+    print('hello')

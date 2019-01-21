@@ -23,7 +23,7 @@ first = languages.get('11', 'unknown value')
 print(first)
 
 # --------------------------------------------------------------------------------------------
-# combining dictiory and list
+# combining dictionary and list
 
 dictionaryList = [
     {"firstName": "Prasad", "lastName": "Honrao"},
@@ -48,5 +48,4 @@ data = {'capital':'', 'population':0}
 
 # Add data to europe under key 'italy'
 europe['italy'] = data
-
 print(europe)

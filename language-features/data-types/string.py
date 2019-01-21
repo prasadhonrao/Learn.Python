@@ -15,7 +15,7 @@ text = """ This
            string """
 print(text)
 
-# escape sequence
+# Mixed quotes
 text = "It's a good thing !"
 print(text)
 
