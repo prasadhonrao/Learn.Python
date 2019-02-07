@@ -1,20 +1,28 @@
-# Declaration and concatenation
-message1 = 'python ' + 'language 1'
-print(message1)
+# Declaration using single quote
+message = 'Hello, Python World!'
+print(message)
+
+# Declaration using double quote
+message = "Hello, Python World!"
+print(message)
 
 # Declaration and concatenation
-message2 = 'python ' 'language 2'
-print(message2)
+message = 'python ' + 'language 1'
+print(message)
+
+# Declaration and concatenation
+message = 'python ' 'language 2'
+print(message)
 
 # Declaration and concatenation on separate line
-message3 = 'python '
-message3 += 'language 3'
-print(message3)
+message = 'python '
+message += 'language 3'
+print(message)
 
 # Multiline string using '''
-message4 = '''python
+message = '''python
            language 4'''
-print(message4)
+print(message)
 
 # Adding escape sequence
 escape = 'Escape Sequence Character \' !!!'
@@ -23,7 +31,3 @@ print(escape)
 # for path variables
 systemPath = r'c:\Windows\System32' # r prefix indicates raw string
 print(systemPath)
-
-# String comparison
-print(message1 == message2)
-print(message1 is message2)

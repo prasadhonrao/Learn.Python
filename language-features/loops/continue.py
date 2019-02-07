@@ -1,6 +1,6 @@
-languages = ["Python", "Scala", "Haskell", "F#", "C#", "JavaScript"]
+programming_languages = ["Python", "Scala", "Haskell", "F#", "C#", "JavaScript"]
 
-for lang in languages:
+for lang in programming_languages:
     if (lang == "Haskell"):
         continue
         print("Found Haskell !!!", end='\n') # this statement will never be executed
