@@ -12,7 +12,7 @@ elif number > 50:
 else:
     print(f"{number} is less than 50")
 
-# Truty Falsy Rule
+# Truthy Falsy Rule
 # Any number other than 0 is true
 # Any string other than empty string is true
 # None is falsy value

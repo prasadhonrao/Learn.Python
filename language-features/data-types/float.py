@@ -14,5 +14,5 @@ print("string to float conversion : {0}".format(floatValue))
 print(float("inf"))
 print(float("-inf"))
 
-# any operation which involes float will result into float
+# any operation which involves float will result into float
 print(3.1 + 4) 

@@ -5,6 +5,6 @@ print(a + b)
 print(a - b)
 print(a * b)
 print(a / b)
-print(a // b)
+print(a // b) #integer division
 print(a % b)
 print(a ** b)

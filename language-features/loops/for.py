@@ -10,7 +10,7 @@ for i in range(10): # iterate 10 times from 0 to 9
     print(i, end=' ')
 print('')
 
-# iterating through range with star and end values
+# iterating through range with start and end values
 for i in range(5, 10):
     print(i, end=' ')
 print('')

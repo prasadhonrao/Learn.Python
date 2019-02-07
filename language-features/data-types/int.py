@@ -22,6 +22,6 @@ print("int constructor : {}".format(ten))
 stringInt = int("123") 
 print("string to int conversion : {}".format(stringInt))
 
-# float to int converstion
+# float to int conversion
 floatInt = int(123456.12) 
 print("float to int conversion : {}".format(floatInt))
