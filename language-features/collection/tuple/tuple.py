@@ -17,7 +17,7 @@ print (t)
 print('First element in tuple is' , t[0])
 
 # find tuple length using len
-print('Tuple lenght is ', len(t))
+print('Tuple length is ', len(t))
 
 # iterate through tuple
 for item in t:
