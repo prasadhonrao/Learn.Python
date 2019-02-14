@@ -18,7 +18,7 @@ print([len(word) for word in words])
 # Capitalize each word
 print([str(word).capitalize() for word in words])
 
-# Calculate length of factorial upto 20 digits
+# Calculate length of factorial up to 20 digits
 from math import factorial
 f = [len(str(factorial(x))) for x in range(20)]
 print(f)
