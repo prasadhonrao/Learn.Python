@@ -18,8 +18,9 @@ print(languages)
 functional_languages = languages[:]
 print(functional_languages)
 
-print(languages == functional_languages)
-print(languages is functional_languages)
+# identity and value equality check
+print(languages == functional_languages) # equality
+print(languages is functional_languages) # identity
 
 # copy list using copy
 functional_languages = languages.copy()
@@ -34,4 +35,3 @@ print("C#" in languages)
 # delete an element
 del languages[0]
 print("Python exist? {0}".format("Python" in languages))
-
