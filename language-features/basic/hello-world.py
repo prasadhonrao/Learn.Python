@@ -1,7 +1,4 @@
-print("Hello, I'm Python!")
-print("I am teaching Python to Soham")
-
-print("Hello", "World", "Lets", "Learn", "Python")
+print("Hello World! Let's learn python")
 
 # Execute below code from command prompt
 user_name = input('Enter your name : ')
