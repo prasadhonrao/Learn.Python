@@ -19,4 +19,9 @@ for p in enumerate(r):
     print(p, end=' ')
 print()
 
+# conver range to list
+lst = list(range(5))
+print(lst)
+
+
     
