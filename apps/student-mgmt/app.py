@@ -1,5 +1,6 @@
 students = []
 
+
 def get_student_titlecase():
     students_titlecase = []
     for student in students:
@@ -12,7 +13,7 @@ def print_students_titlecase():
     print(students_titlecase)
 
 
-def add_student(name, student_id = 999):
+def add_student(name, student_id=999):
     student = {"name": name, "student_id": student_id}
     students.append(student)
     print("Student count is {0}".format(len(students)))
@@ -36,6 +37,7 @@ def read_file():
     except Exception:
         print("Could not read")
 
+
 # ADD NEW STUDENT BLOCK
 student_list = get_student_titlecase()
 add_student("Prasad", "101")
@@ -49,11 +51,11 @@ add_student(student_name, student_id)
 print_students_titlecase()
 
 # USE BELOW CODE BLOCK IF YOU WANT TO ADD NEW STUDENT IN A LOOP
-add_new_student_flag = ''
-message = "Do you want to add new student record?? Press [Y] / [y] to continue. "
+add_new_student_flag = ""
+message = "Do you want to add new student record?? Press [Y] / [y] to continue."
 add_new_student_flag = input(message)
 
-while (add_new_student_flag == 'Y' or add_new_student_flag == 'y'):
+while add_new_student_flag == "Y" or add_new_student_flag == "y":
     student_name = input("enter student name : ")
     student_id = input("enter student id : ")
     add_student(student_name, student_id)

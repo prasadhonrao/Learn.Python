@@ -1,11 +1,11 @@
-import random 
+import random
 
 print("Hello, What is your favorite number?")
 number = input()
 
 print("Your favorite number is " + number)
 
-#generate randon number between 1 to 100
+# generate randon number between 1 to 100
 minNumber = 1
 maxNumber = 100
 magicNumber = random.randint(minNumber, maxNumber)
