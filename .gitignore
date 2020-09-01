@@ -99,3 +99,9 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+.scannerwork
+.coverage
+.__pycache__
+.pytest_cache
+.idea
