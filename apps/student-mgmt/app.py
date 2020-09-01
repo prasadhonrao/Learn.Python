@@ -1,71 +1,93 @@
+"""
+Student management module
+"""
 students = []
 
 
-def get_student_titlecase():
-    students_titlecase = []
+def get_student_title_case() -> str:
+    """
+    Function to return student name in title case
+    :return: student name
+    """
+    students_title_case = []
     for student in students:
-        students_titlecase.append(student["name"].title())
-    return students_titlecase
+        students_title_case.append(student["name"].title())
+    return students_title_case
 
 
-def print_students_titlecase():
-    students_titlecase = get_student_titlecase()
-    print(students_titlecase)
+def print_students_title_case() -> None:
+    """
+    Function to print student name using title case
+    """
+    students_title_case = get_student_title_case()
+    print(students_title_case)
 
 
-def add_student(name, student_id=999):
-    student = {"name": name, "student_id": student_id}
+def add_student(name, stud_id=999):
+    """
+    Function to add a student in the list
+    :param name: student name
+    :param stud_id: student id
+    """
+    student = {"name": name, "id": stud_id}
     students.append(student)
     print("Student count is {0}".format(len(students)))
 
 
 def save_file(student):
+    """
+    Function to save student information to the file
+    :param student: student info
+    """
     try:
-        f = open("students.txt", "a")
-        f.write(student + "\n")
-        f.close()
-    except Exception:
+        student_file = open("students.txt", "a")
+        student_file.write(student + "\n")
+        student_file.close()
+    except IOError:
         print("Could not save")
 
 
 def read_file():
+    """
+    Function to read student information file
+    """
     try:
-        f = open("students.txt", "r")
-        for student in f.readlines():
+        student_file = open("students.txt", "r")
+        for student in student_file.readlines():
             add_student(student)
-        f.close()
-    except Exception:
+        student_file.close()
+    except IOError:
         print("Could not read")
 
 
 # ADD NEW STUDENT BLOCK
-student_list = get_student_titlecase()
+student_list = get_student_title_case()
 add_student("Prasad", "101")
 
 # ADD NEW STUDENT VIA USER INPUT AND DISPLAY THE LIST
-student_name = input("enter student name : ")
-student_id = input("enter student id : ")
+student_name = input("Enter student name : ")
+student_id = input("Enter student id : ")
 add_student(student_name, student_id)
 
 # PRINT STUDENT DETAILS
-print_students_titlecase()
+print_students_title_case()
 
 # USE BELOW CODE BLOCK IF YOU WANT TO ADD NEW STUDENT IN A LOOP
-add_new_student_flag = ""
-message = "Do you want to add new student record?? Press [Y] / [y] to continue."
-add_new_student_flag = input(message)
+ADD_NEW_STUDENT_FLAG: str = ""
+MESSAGE = "Do you want to add new student record?? Press [Y] / [y] to continue."
+ADD_NEW_STUDENT_FLAG = input(MESSAGE)
 
-while add_new_student_flag == "Y" or add_new_student_flag == "y":
+while ADD_NEW_STUDENT_FLAG in ("Y", "y"):
     student_name = input("enter student name : ")
     student_id = input("enter student id : ")
     add_student(student_name, student_id)
-    add_new_student_flag = input(message)
+    ADD_NEW_STUDENT_FLAG = input(MESSAGE)
 
-print_students_titlecase()
+print_students_title_case()
 
 # READ FROM File
 read_file()
-print_students_titlecase()
+print_students_title_case()
 
 # WRITE TO FILE
 print("writing to file...")

@@ -1,0 +1,7 @@
+************* Module test_widget
+/Users/ph/Projects/Learn.Python/apps/student-mgmt/test_widget.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+/Users/ph/Projects/Learn.Python/apps/student-mgmt/test_widget.py:1: [C0116(missing-function-docstring), test_app_function_as_expected] Missing function or method docstring
+/Users/ph/Projects/Learn.Python/apps/student-mgmt/test_widget.py:5: [C0116(missing-function-docstring), test_widget_fails] Missing function or method docstring
+
+------------------------------------------------------------------
+Your code has been rated at 2.50/10 (previous run: 2.50/10, +0.00)
