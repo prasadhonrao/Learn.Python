@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Card</title>
+</head>
+<body>
+    <h1>Flash card</h1>
+    Question: {{card.question}} <br>
+    Answer: {{card.answer}}
+    <p>
+        {% if index < max_index %}
+        <button>
+            <a href="{{ url_for('card_view', index=index + 1) }}">
+                Next card
+            </a>
+        </button>
+        {% else %}
+        <button>
+           <a href="{{ url_for('card_view', index=index - 1) }}">
+                Prev card
+            </a>
+        </button>
+        {% endif %}
+    </p>
+</body>
+</html>
