@@ -4,5 +4,9 @@
     "cSpell.words": [
         "Honrao",
         "Prasad"
-    ]
+    ],
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.idea": true
+    }
 }
