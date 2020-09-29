@@ -5,16 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
+
     {% if title %}
-    <title>Flask Blog - {{ title }}</title>
+        <title>Flask Blog - {{ title }}</title>
     {% else %}
-    <title>Flask Blog</title>
+        <title>Flask Blog</title>
     {% endif %}
 
-    <link href="../static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ url_for ('static', filename='vendor/bootstrap/css/bootstrap.min.css') }} " rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="../static/css/blog-home.css" rel="stylesheet">
+    <link href=" {{ url_for ('static', filename='css/blog-home.css') }} " rel="stylesheet">
+
 </head>
 <body>
 
@@ -107,14 +109,6 @@
                 </ul>
               </div>
             </div>
-          </div>
-        </div>
-
-        <!-- Side Widget -->
-        <div class="card my-4">
-          <h5 class="card-header">Side Widget</h5>
-          <div class="card-body">
-            You can put anything you want inside of these side widgets. They are easy to use, and feature the new Bootstrap 4 card containers!
           </div>
         </div>
 
