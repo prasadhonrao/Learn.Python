@@ -1,23 +1,15 @@
-{% extends 'layout.html' %}
+{% extends "layout.html" %}
 {% block content %}
-
-        <h1 class="my-4">Page Heading
-          <small>Secondary Text</small>
-        </h1>
-           <!-- Blog Post -->
-          {% for post in posts %}
-        <div class="card mb-4">
-          <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
-          <div class="card-body">
-            <h2 class="card-title">{{post.title}}</h2>
-            <p class="card-text">{{post.content}}</p>
-            <a href="#" class="btn btn-primary">Read More &rarr;</a>
+    {% for post in posts %}
+        <article class="media content-section">
+          <div class="media-body">
+            <div class="article-metadata">
+              <a class="mr-2" href="#">{{ post.author }}</a>
+              <small class="text-muted">{{ post.date_posted }}</small>
+            </div>
+            <h2><a class="article-title" href="#">{{ post.title }}</a></h2>
+            <p class="article-content">{{ post.content }}</p>
           </div>
-          <div class="card-footer text-muted">
-            Posted on {{post.date_posted}} by
-            <a href="#">{{post.author}}</a>
-          </div>
-        </div>
-        {% endfor %}
-
+        </article>
+    {% endfor %}
 {% endblock content %}
