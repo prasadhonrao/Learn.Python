@@ -1,3 +1,7 @@
+"""
+    Python program to accept user input and display customized message
+"""
+
 user_name = input('Enter your name : ')
 print('You have entered : %s' % user_name)
 print('1. Hi {}'.format(user_name))

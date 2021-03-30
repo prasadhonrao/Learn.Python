@@ -8,5 +8,8 @@
     "files.exclude": {
         "**/__pycache__": true,
         "**/.idea": true
-    }
+    },
+    "editor.fontFamily": "'Operator Mono Book', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 15,
+    "editor.fontLigatures": null
 }

@@ -15,3 +15,4 @@ print(fac(6) // fac(2) ) # // converts float into int
 # built in math e and pi values
 print("e value = {} ".format(math.e))
 print("Pi value = {} ".format(math.pi))
+

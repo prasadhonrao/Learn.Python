@@ -24,3 +24,8 @@ print('')
 # iterating using a _ placeholder
 for _ in range(5):
     print('hello')
+
+
+for _ in range(10):
+    if (int(input()) % 7 == 0):
+        break

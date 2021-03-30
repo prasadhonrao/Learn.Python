@@ -1,3 +1,7 @@
+"""
+    Welcome to Python program
+"""
+
 print("Hello World! Let's learn python")
 
 # Execute below code from command prompt
