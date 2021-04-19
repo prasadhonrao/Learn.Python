@@ -2,7 +2,7 @@ students = []
 
 class Student:
 
-    # constructor
+    # initializer
     def __init__(self, name, id = 0, age = 0):
         self.name = name
         self.id = id

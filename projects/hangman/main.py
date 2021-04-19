@@ -13,7 +13,7 @@ def get_random_word():
     """
     print("Getting random word")
     words = ["pizza", "cheese", "oranges", "banana"]
-    word = words[random.randint(0, len(words) - 1)]
+    word = random.choice(words)
     return word
 
 

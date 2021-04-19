@@ -1,8 +1,12 @@
-# Program make a simple calculator that can add, subtract, multiply,
-# divide, mod and power using functions
-
+"""
+    Program make a simple calculator that can add, subtract, multiply,
+    divide, mod and power using functions
+"""
 
 class Calculator:
+    """
+        Calculator class
+    """
     def __init__(self):
         print("Initializing calculator")
 
@@ -25,5 +29,9 @@ class Calculator:
         return number ** power
 
 
-c = Calculator()
-print(c.add(1, 2))
+def main():
+    c = Calculator()
+    print(c.add(1, 2))
+
+if __name__ == "__main__":
+    main()
