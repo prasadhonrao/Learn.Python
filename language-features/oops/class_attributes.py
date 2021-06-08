@@ -1,7 +1,7 @@
 students = []
 
 class Student:
-    # static variable
+    # class attributes which is shared across all instances
     school_name = "Kennedy Park International"
 
     # constructor
@@ -15,7 +15,7 @@ class Student:
         return "Student " + self._name.capitalize()
 
     def get_school_name(self):
-        return self.school_name
+        return Student.school_name
 
 print(Student.school_name)
 mark = Student("Mark")

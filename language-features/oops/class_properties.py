@@ -7,7 +7,7 @@ class Student:
         self.name = name
         self.id = id
         if (age < 0):
-            raise ValueError("Age cannot be less than zero".format(age))
+            raise ValueError(f"Age cannot be less than zero {age}")
         self.age = age
 
         students.append(self)
@@ -15,6 +15,7 @@ class Student:
     # override toString
     def __str__(self):
         return "Student {0}'s id is {1} and age is {2}".format(self.name.capitalize(), self.id, self.age)
+
 
     # define age property
     def age(self):
