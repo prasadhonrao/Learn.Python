@@ -6,8 +6,8 @@ print(str(add(1, 2)))
 print(str(add(1.2, 2.3)))
 print(add('news', 'paper'))
 
-# datatype can be specified which gets used only to provide type information in IDE. It does 
-# not have any significance in program execution
+# data type can be specified which gets used only to provide type information in IDE. 
+# It does not have any significance in program execution
 
 def add2(first:int, second:int) -> int:
     return first + second
