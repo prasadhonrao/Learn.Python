@@ -10,5 +10,6 @@
         "**/.idea": true
     },
     "editor.fontSize": 15,
-    "editor.fontLigatures": null
+    "editor.fontLigatures": null,
+    "python.pythonPath": "/usr/local/bin/python"
 }
