@@ -1,3 +1,5 @@
+# strings are immutable sequence of characters
+
 # Declaration using single quote
 message = 'Hello, Python World!'
 print(message)

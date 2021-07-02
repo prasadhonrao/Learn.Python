@@ -1,4 +1,6 @@
-# dictionary key can have different data types, including nested dictionary
+# dict key can have different data types, including nested dictionary
+# dict keys are immutable and must be unique
+# dict values are mutable
 
 languages = { 
     1: 'Python', 
@@ -41,7 +43,6 @@ europe = {
     'germany': { 'capital':'berlin', 'population':80.62 },
     'norway': {'capital': 'oslo', 'population': 5.084}
 }
-
 
 # Print out the capital of France
 print(europe['france']['capital'])

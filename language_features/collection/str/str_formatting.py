@@ -1,4 +1,3 @@
-
 person = {'name': 'Jenn', 'age': 23}
 
 # sentence = 'My name is ' + person['name'] + ' and I am ' + str(person['age']) + ' years old.'
