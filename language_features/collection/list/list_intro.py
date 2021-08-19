@@ -1,4 +1,4 @@
-# list - mutable sequence of objects
+# list - ordered, mutable sequence of objects, allow duplicates.
 
 # declaration
 languages = ["Python", "Scala", "Haskell", "F#"]

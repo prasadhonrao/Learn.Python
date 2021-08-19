@@ -1,13 +1,16 @@
-# Project Index
-
+- Band name generator
 - Calculator
-
-Id  |   Project                 | Description                               | Solution  | Topics Covered            | 
-----|---------------------------|-------------------------------------------|-----------| --------------------------|
-1   |   Bane name generator     | Title                                     | Title     | Title                     |
-2   |   Tip Calculator          | Text                                      | Text      | Text                      |
-3   |   Odd Even Finder         | Text                                      | Text      | Text                      |
-4   |   BMI Calculator          | Text                                      | Text      | Text                      |
-5   |   Leap Year               | Text                                      | Text      | Text                      |
-6   |   Random number generator | Generate random number                    | Text      | random module             |
-7   |   Rock Paper Scissors     | Rock Papre Scissor game                   | Text      | random module             |
+- Tip Calculator
+- Odd Even Finder
+- BMI Calculator
+- Leap Year
+- Random number generator
+- Rock Paper Scissors
+- Even Number Addition
+- Guess Word
+- Min Max Average Finder
+- Factorial
+- Password Generator
+- Prime Number Checker
+- Perfect Number Checker
+- Hangman

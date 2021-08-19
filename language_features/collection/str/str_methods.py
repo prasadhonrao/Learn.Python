@@ -20,7 +20,7 @@ new_message = old_message.replace('old','new')
 print(old_message)
 print(new_message)
 
-# Slice
+# Slice : Slicing is a way to extract a substring from a string.
 s = "Python is extremely powerful language".split()
 print(s[0])
 print(s[1:4])
@@ -28,10 +28,14 @@ print(s[1:-1])
 print(s[2:])
 print(s[:2])
 
-# Split
+# Split : Separate string based on seperator and return a list
 s = "Python is extremely powerful language".split()
 print(s)
 
+# Strip : Remove leading and trailing whitespace
+s = "   Python   is   extremely   powerful   language   "
+print(s)
+print(s.strip())
 
 # creating a copy of string
 s1 = s[:] 

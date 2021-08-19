@@ -2,27 +2,31 @@
 # dict keys are immutable and must be unique
 # dict values are mutable
 
-languages = { 
-    1: 'Python', 
-    2: 'Scala', 
-    3: 'Haskell',
-    "four": 'F#',
+customers = { 
+    1: 'Prasad', 
+    2: 'Scott', 
+    3: 'John',
+    "four": 'Bill',
 }
-print(type(languages))
-print(languages)
-print(languages[1])
-print("Dictionary length is {0}".format(len(languages)))
-print(languages.keys()) #get all keys
-print(languages.values()) # get all values
-print(languages.items()) # get all keys and values
+print(type(customers))
+print(customers)
+print(customers[1])
+print("Dictionary length is {0}".format(len(customers)))
+print(customers.keys()) # get all keys
+print(customers.values()) # get all values
+print(customers.items()) # get all keys and values
+
+# declear a dictionary using dict()
+premium_customers = dict(name='John', age=25, address='New York')
+print(premium_customers)
 
 # use get method to get a value using key, and pass default value if key doesn't exists in the dictionary
-first = languages.get('11', 'unknown value')
+first = customers.get('11', 'unknown value')
 print(first)
 
 # add new key to dictionary
-languages['5'] = "Clojure"
-first = languages.get('11', 'unknown value')
+customers['5'] = "Clojure"
+first = customers.get('11', 'unknown value')
 print(first)
 
 # --------------------------------------------------------------------------------------------

@@ -1,3 +1,5 @@
+# shallow copy - create a new list with same object reference of existing list
+
 a = [[1, 2], [3, 4]]
 print ("a = ", a)
 

@@ -1,6 +1,5 @@
 n = 1
 
 while (n <= 10):
-    print(n, end=' ')
+    print(n)
     n = n + 1
-

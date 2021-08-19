@@ -10,7 +10,7 @@ class Calculator:
     def __init__(self):
         print("Initializing calculator")
 
-    def add(self, first_number: str, second_number):
+    def add(self, first_number, second_number):
         return first_number + second_number
 
     def sub(self, first_number, second_number):
@@ -30,8 +30,26 @@ class Calculator:
 
 
 def main():
-    c = Calculator()
-    print(c.add(1, 2))
+    calculator = Calculator()
+
+    first_number = float(input("Enter first number: "))
+    second_number = float(input("Enter second number: "))
+    operation = input("Enter operation: ")
+
+    if operation == '+':
+        print(calculator.add(first_number, second_number))
+    elif operation == '-':
+        print(calculator.sub(first_number, second_number))
+    elif operation == '*':
+        print(calculator.mul(first_number, second_number))
+    elif operation == '/':
+        print(calculator.div(first_number, second_number))
+    elif operation == '%':
+        print(calculator.mod(first_number, second_number))
+    elif operation == '**':
+        print(calculator.pow(first_number, second_number))
+    else:
+        print("Invalid operation")
 
 if __name__ == "__main__":
     main()

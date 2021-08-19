@@ -1,11 +1,14 @@
 # Commonly used methods
-print("python is a dynamic language".capitalize() )
+print("python is a dynamic language".capitalize())
 print("python".replace("p","j"))
-print("python".isalpha())
+print("python".isalpha()) 
 print("python".isdigit())
-print("123".isdigit())
+print("123".isdigit()) 
 print("python3.6".isdigit())
 print(("red, green, blue").split(","))
+
+# function chaining
+print("python".replace("p","j").capitalize())
 
 # string interpolation
 language = "Python"

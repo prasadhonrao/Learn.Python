@@ -1,6 +1,5 @@
 # 1. Gotcha 
-# Single element tuple needs to be declared either using trailing comma 
-# or tuple constructor
+# Single element tuple needs to be declared either using trailing comma or tuple constructor
 
 t = (123) # here t will be considered as of type int
 print(type(t))

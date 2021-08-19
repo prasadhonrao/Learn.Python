@@ -1,15 +1,5 @@
 {
-    "python.linting.pylintEnabled": true,
-    "python.linting.enabled": true,
     "cSpell.words": [
-        "Honrao",
-        "Prasad"
-    ],
-    "files.exclude": {
-        "**/__pycache__": true,
-        "**/.idea": true
-    },
-    "editor.fontSize": 15,
-    "editor.fontLigatures": null,
-    "python.pythonPath": "/usr/local/bin/python"
+        "deque"
+    ]
 }

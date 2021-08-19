@@ -1,38 +1,38 @@
-nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 # print n from n using for
 my_list = []
-for n in nums:
+for n in numbers:
     my_list.append(n)
 print(my_list)
 
 # using comprehension
-my_list = [n for n in nums]
+my_list = [n for n in numbers]
 print(my_list)
 
 #----------------------------------#
 
 # print n from n using for
 my_list = []
-for n in nums:
+for n in numbers:
     my_list.append(n * n)
 print(my_list)
 
 # using comprehension
-my_list = [n * n for n in nums]
+my_list = [n * n for n in numbers]
 print(my_list)
 
 #----------------------------------#
 
 # print n from n if n is even using for loop
 my_list = []
-for n in nums:
+for n in numbers:
     if n % 2 == 0:
         my_list.append(n)
 print(my_list)
 
 # using comprehension
-my_list = [n for n in nums if n % 2 == 0]
+my_list = [n for n in numbers if n % 2 == 0]
 print(my_list)
 
 #----------------------------------#
@@ -51,14 +51,14 @@ print(my_list)
 #----------------------------------#
 
 # set comprehension
-duplicate_nums = [1, 1, 2, 2, 3, 4, 5, 6, 6, 7, 8, 9, 9, 10]
+duplicate_numbers = [1, 1, 2, 2, 3, 4, 5, 6, 6, 7, 8, 9, 9, 10]
 
 # print unique n from n using for loop
 my_set = set()
-for n in duplicate_nums:
+for n in duplicate_numbers:
     my_set.add(n)
 print(my_set)
 
 # using comprehension
-my_set = { n for n in duplicate_nums }
+my_set = { n for n in duplicate_numbers }
 print(my_set)

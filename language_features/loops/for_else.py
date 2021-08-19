@@ -4,5 +4,5 @@ for i in numbers:
     if i == 3:
         break
     print(i)
-else:
+else: # this will only be executed if for loop does not hit break
     print("Done")

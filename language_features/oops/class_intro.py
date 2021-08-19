@@ -2,17 +2,17 @@
 
 class Player:
     """ Player class """
-    
-    def __init__(self, name):
-        self._name = name
+
+    def __init__(self, player_name):
+        self.name = player_name
 
     def say_hello(self):
         """ Function used by player to introduce him/her self """
-        print("Hello, I'm ", self._name)
+        print("Hello, I'm ", self.name)
 
     def score_runs(self, runs):
         """ Function used to capture runs scored by a player """
-        print(self._name + " has just scored " + str(runs) + " runs" )
+        print(self.name + " has just scored " + str(runs) + " runs" )
 
 
 def main():

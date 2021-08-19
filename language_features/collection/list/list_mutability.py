@@ -10,7 +10,7 @@ print("numbers = ", numbers)
 numbers2 = [1, 2, 3]
 
 def modify2(list):
-    list = [10, 20, 30] # reinitializing list
+    list = [10, 20, 30] # re-initializing list
     print("list = ", list)
 
 modify2(numbers2)

@@ -10,5 +10,13 @@ print(lower, upper)
 a = '1'
 b = '2'
 print('Before swap : ' + a + " " + b )
-a, b = b , a
+a, b = b, a
 print('After swap : ' + a + " " + b )
+
+# tuple unpacking using *
+numbers = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+first, *middle, last = numbers
+
+print(first)
+print(middle)
+print(last)
